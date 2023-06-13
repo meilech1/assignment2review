@@ -14,6 +14,6 @@ if (is.numeric(as.numeric(armstrong)) & #numeric
     print(paste(armstrong, "is not a Narcisstic number."))
   }
 } else {
-  print("Oops silly goose! This entry is not valid. Terminating...")
+  print("Oops, silly goose! This entry is not valid. Terminating...")
 }
-# Display the result with an appropriate message 
+ 
