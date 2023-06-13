@@ -7,7 +7,7 @@ if (is.numeric(as.numeric(armstrong)) &
     nchar(armstrong) == 3 &
     as.numeric(armstrong) > 0) {
 # Check if the number is narcissistic 
-  if (((armstrong %% 100)^3) + (((armstrong %% 100) %% 10)^3) + ((armstrong %% 10)^3) == armstrong) {
+  if (((armstrong %/% 100)^3) + (((armstrong %% 100) %/% 10)^3) + ((armstrong %% 10)^3) == armstrong) {
 # Display the result with an appropriate message   
      print(paste(armstrong, "is a Narcissitic number."))
   } else {
