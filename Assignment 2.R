@@ -3,8 +3,8 @@ armstrong <- readline(prompt = "Please enter a three digit positive number: ")
 # Check if the user input is numeric, an integer, contains three characters, and is positive. If not, print an error message and quit.
 if (is.numeric(as.numeric(armstrong)) & #numeric
     (as.numeric(armstrong)) %% 1 == 0 & #integer
-    nchar(armstrong) == 3 & #three digits
-    as.numeric(armstrong) > 0) { #positive number 
+    as.numeric(armstrong) > 0 &
+    nchar(armstrong) == 3) {
   armstrong <- as.integer(armstrong)
 # Check if the number is narcissistic 
   if (((armstrong %/% 100)^3) + (((armstrong %% 100) %/% 10)^3) + ((armstrong %% 10)^3) == armstrong) {
