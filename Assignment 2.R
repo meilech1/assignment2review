@@ -5,7 +5,7 @@ if (is.numeric(as.numeric(armstrong)) & #numeric
     (as.numeric(armstrong)) %% 1 == 0 & #integer
     as.numeric(armstrong) > 0 & #positive number
     nchar(armstrong) == 3 & #three digits
-    !grepl("[A-Za-z]", armstrong) &
+    !grepl("[A-Za-z]", armstrong) & #this line ensures that if the user inputs any words including three letter words such as "pop", the error message (line 18) is still displayed
     as.numeric(armstrong) >= 100 &
     as.numeric(armstrong) <= 999) { #these lines were added to ensure the user inputs values between 100-999 and not a number for ex. 001
   armstrong <- as.integer(armstrong) 
