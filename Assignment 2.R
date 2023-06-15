@@ -1,3 +1,5 @@
+# Assignment 2 Code Review for Stephanie Abrokwa. Reviewer: Christopher Meile 
+
 # Prompt the user to enter a three digit positive number
 armstrong <- readline(prompt = "Please enter a number between 100 - 999: ")
 # Check if the user input is numeric, an integer, contains three characters, and is positive. If not, print an error message and quit.
