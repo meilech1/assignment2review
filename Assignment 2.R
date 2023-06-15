@@ -18,3 +18,4 @@ if (is.numeric(as.numeric(armstrong)) & #numeric
   print("Oops, silly goose! This entry is not valid. Terminating...")
 }
 
+
