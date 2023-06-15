@@ -8,7 +8,7 @@
 
 armstrong <- readline(prompt = "Please enter a number between 100 - 999: ")
 
-#' COMMENT FOR IF-BLOCK LINES 14-XX: This is another great example of defensive programming. You 
+#' COMMENT FOR IF-BLOCK LINES 28-34: This is another great example of defensive programming. You 
 #' are checking all the necessary conditions for user input to satisfy the criteria for narcissistic 
 #' numbers. However, some of these condition checks are redundant & could thus shorten your code. 
 #' 
