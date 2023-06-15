@@ -1,4 +1,4 @@
-# Assignment 2 Code Review for Stephanie Abrokwa. Reviewer: Christopher Meile 
+# Assignment 2 Code Review for Stephanie. Reviewer: Christopher 
 
 # Prompt the user to enter a three digit positive number
 
